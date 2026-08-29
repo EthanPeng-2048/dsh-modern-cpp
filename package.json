@@ -1,0 +1,23 @@
+{
+  "name": "dsh-modern-cpp",
+  "version": "1.0.0",
+  "description": "Modern C++ development guide for DSH — enforces standard-first coding with C++11/14/17/20/23/26 features, RAII, concepts, ranges, and the latest language facilities.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "cpp",
+    "modern-cpp",
+    "c++20",
+    "c++23",
+    "c++26",
+    "agent-skills"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# dsh-modern-cpp bundle patch — installed via `dsh plugin add <repo>`
+# Registers the modern-cpp skill into the runtime skill registry.
+- insert:
+    - id: dsh-modern-cpp-skill
+      name: 'dsh-modern-cpp/plugins/dsh-skill-provider.mjs'
+      config:
+        enabled: true
